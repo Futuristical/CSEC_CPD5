@@ -1,0 +1,6 @@
+for i in range (5):
+    a=input().split(" ")
+    if "1" in a:
+        e=a.index("1")
+        d=i
+print(abs(d-2)+abs(e-2))
